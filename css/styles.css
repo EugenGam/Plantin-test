@@ -80,17 +80,17 @@ body {
 }
 
 .srch {
-  background-image: url("../../images/icons/search.svg");
+  background-image: url("../images/icons/search.svg");
   background-repeat: no-repeat;
 }
 
 .burger {
-  background-image: url("../../images/icons/burger.svg");
+  background-image: url("../images/icons/burger.svg");
   background-repeat: no-repeat;
 }
 
 .cab {
-  background-image: url("../../images/icons/cabinet.svg");
+  background-image: url("../images/icons/cabinet.svg");
   background-repeat: no-repeat;
 }
 
@@ -156,7 +156,7 @@ body {
   height: 40px;
   border: none;
   border-radius: 0 12px 12px 0;
-  background-image: url("../../images/icons/search-tool.svg");
+  background-image: url("../images/icons/search-tool.svg");
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: center;
@@ -192,7 +192,7 @@ body {
   left: 8px;
   width: 24px;
   height: 24px;
-  background-image: url("../../images/icons/chevron_left.svg");
+  background-image: url("../images/icons/chevron_left.svg");
 }
 
 .body__link {
@@ -213,7 +213,7 @@ body {
   margin-bottom: 16px;
   width: 78px;
   height: 36px;
-  background-image: url("./../../images/icons/new.svg");
+  background-image: url("../images/icons/new.svg");
 }
 
 .new__image {
@@ -291,7 +291,7 @@ body {
   padding-top: 56px;
   background-color: rgba(4, 191, 148, 0.16);
   margin-bottom: 18px;
-  background-image: url("../../images/icons/logo.svg");
+  background-image: url("../images/icons/logo.svg");
   background-size: 107px 24px;
   background-repeat: no-repeat;
   background-position-x: 16px;
@@ -442,7 +442,7 @@ body {
 .search {
   height: 267px;
   padding: 56px;
-  background-image: url("../../images/block_search_image.svg");
+  background-image: url("../images/block_search_image.svg");
   background-repeat: no-repeat;
   background-position: right;
   border-radius: 16px;
@@ -548,7 +548,7 @@ body {
   display: block;
   width: 336px;
   height: 261px;
-  background-image: url("../../images/block_promo_image.svg");
+  background-image: url("../images/block_promo_image.svg");
   background-size: contain;
   background-repeat: no-repeat;
   bottom: 230px;
@@ -619,7 +619,7 @@ body {
   height: 64px;
   border-radius: 16px 0 0 0;
   background-color: #ffffff;
-  background-image: url("../../images/icons/short_up.svg");
+  background-image: url("../images/icons/short_up.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
