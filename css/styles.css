@@ -480,11 +480,14 @@ body {
 
 
 /* SECTION NEW  */
+new {
+  margin-bottom: 56px;
+ }
+  
 .news {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-bottom: 56px;
 }
 .new__image {
   width: 521px;
