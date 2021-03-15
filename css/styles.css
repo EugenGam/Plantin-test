@@ -241,9 +241,6 @@ body {
 }
 
 /* ARTICLE */
-.article {
-  margin-bottom: 23px;
-}
 
 .article__content {
   display: flex;
@@ -280,6 +277,10 @@ body {
 }
 
 /* PROMO */
+
+.promo__item {
+  margin-bottom: 18px;
+}
 .promo {
   display: flex;
   justify-content: left;
@@ -287,7 +288,6 @@ body {
   padding: 16px;
   padding-top: 56px;
   background-color: rgba(4, 191, 148, 0.16);
-  margin-bottom: 18px;
   background-image: url("../images/icons/logo.svg");
   background-size: 107px 24px;
   background-repeat: no-repeat;
@@ -332,6 +332,9 @@ body {
   color: #ffffff;
 }
 
+.interesting {
+  margin-bottom: 96px;
+}
 .interesting::before {
   content: "";
   display: block;
@@ -341,7 +344,13 @@ body {
   background: #c4c4c4;
   margin-bottom: 8px;
 }
+.interesting__item {
+  margin-bottom: 23px;
+}
 
+.interesting__item:last-child {
+  margin-bottom: 0px;
+}
 /* FOOTER */
 
 .policy__item {
@@ -387,6 +396,7 @@ body {
   display: none;
   opacity: 0;
 }
+
 @media (min-width: 768px) {
   .container {
     max-width: 700px;
@@ -422,6 +432,12 @@ body {
   .search__form {
     width: 490px;
   }
+
+  .promo__item {
+    width: 100%;
+    min-width: 700px;
+    margin-bottom: 56px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -433,7 +449,7 @@ body {
 
   .container {
     max-width: 100%;
-    width: 900px;
+    width: 930px;
   }
 
   .desctop__nav {
@@ -509,6 +525,14 @@ body {
   }
 
   /* INTRESTING  */
+  .interesting__item {
+    width: 30%;
+    min-width: 300px;
+    margin-bottom: 56px;
+  }
+  .interesting__item:nth-child(n + 11) {
+    margin-bottom: 0px;
+  }
   .interesting::before {
     margin-bottom: 16px;
   }
@@ -539,6 +563,18 @@ body {
   }
 
   .article__container:last-child {
+    margin-bottom: 0px;
+  }
+
+  .interesting__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+  }
+
+  .interesting__list:last-child {
     margin-bottom: 0px;
   }
 
@@ -591,7 +627,6 @@ body {
     padding-top: 72px;
     padding-left: 24px;
     min-height: 252px;
-    margin-bottom: 56px;
   }
   .promo::after {
     content: "";
@@ -624,7 +659,6 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     padding-bottom: 14px;
-    padding-top: 94px;
   }
   .policy__list {
     justify-content: start;
@@ -700,10 +734,6 @@ body {
   .article__image {
     width: 322px;
     height: auto;
-  }
-
-  .interestings {
-    width: 30%;
   }
 
   .navigation__list {
